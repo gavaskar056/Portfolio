@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.2.0/css/line.min.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+
+    <title>Portfolio | Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="cursor"></div>
+    <div class="hover-target"></div>
+    <div class="container">
+        <!-- --------------- HEADER --------------- -->
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name"><a href="#home">Sunil CH</a></p>
+                <span></span>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <a href="file:///C:/Users/sunil/OneDrive/sunil_ch%20resume.pdf" download="sunil_ch resume.pdf"
+                    target="__blank">
+                    <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
+                </a>
+
+            </div>
+            <div class="mode">
+                <div class="moon-sun" id="toggle-switch">
+                    <i class="fa fa-moon" id="moon"></i>
+                    <i class="fa fa-sun" id="sun"></i>
+                </div>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+
+        </nav>
+
+
+        <!-- -------------- MAIN ---------------- -->
+        <main class="wrapper">
+            <!-- -------------- FEATURED BOX ---------------- -->
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="featured-text-card">
+                        <span>Sunil Chunchu</span>
+                    </div>
+                    <div class="featured-name">
+                        <p>I'm <span class="typedText">Software engineer</span></p>
+                    </div>
+                    <div class="featured-text-info">
+                        <p>Hello! I am a passionate and motivated software engineering graduate with a strong foundation
+                            in programming languages such as Java and JavaScript. I have hands-on experience in
+                            developing web applications and working with databases through various academic projects.
+                        </p>
+                    </div>
+                    <div class="featured-text-btn">
+                        <button class="btn blue-btn" onclick="scrollToContact()">Hire Me</button>
+                        <a href="file:///C:/Users/sunil/OneDrive/sunil_ch%20resume.pdf" download="sunil_ch resume.pdf"
+                            target="__blank">
+                            <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
+                        </a>
+                    </div>
+                    <div class="social_icons">
+                        <a href="https://www.instagram.com/kang_tae_wo/?hl=en" target="_blank"
+                            rel="noopener noreferrer">
+                            <div class="icon"><i class="uil uil-instagram"></i></div>
+                        </a>
+                        <a href="https://www.linkedin.com/in/sunil-ch-7a876a219/" target="_blank"
+                            rel="noopener noreferrer">
+                            <div class="icon"><i class='uil uil-linkedin'></i></div>
+                        </a>
+                        <a href="https://github.com/gavaskar056" target="_blank" rel="noopener noreferrer">
+                            <div class="icon"><i class="uil uil-github"></i></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="suneel_edited.jpg" alt="avatar">
+                    </div>
+                </div>
+                <div class="scroll-icon-box">
+                    <a href="#about" class="scroll-btn">
+                        <i class="uil uil-mouse-alt"></i>
+                        <p>Scroll Down</p>
+                    </a>
+                </div>
+
+
+            </section>
+            <!--------DARK MODE ------->
+
+            <!-- -------------- ABOUT BOX ---------------- -->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About Me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <h3>My introduction</h3>
+                            <p>Hello! I'm Sunil chunchu, a recent graduate with a Bachelor's degree in Computer Science
+                                Engineering from VIT University. My passion for technology and problem-solving drives me
+                                to continually explore new challenges in the ever-evolving tech landscape.
+
+                                During my studies, I developed a strong foundation in programming languages such as Java
+                                and honored my skills in software development, data structures, and algorithms. I have
+                                hands-on experience with web development technologies, including HTML, CSS, and
+                                JavaScript, and I am particularly interested in full-stack development .
+                                In addition to my technical abilities, I am a quick learner and a dedicated problem
+                                solver, always eager to expand my knowledge and stay updated with the latest industry
+                                trends. I am excited to start my career in tech, where I can contribute to meaningful
+                                projects and make a positive impact
+                            </p>
+                            <div class="about-btn">
+                                <button class="btn">Download CV <i class="uil uil-import"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="skill">
+                        <div class="skill-box">
+                            <span class="title">HTML</span>
+                            <div class="skill-bar ">
+                                <span class="skill-per html">
+                                    <span class="tooltip">90%</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">CSS</span>
+                            <div class="skill-bar css ">
+                                <span class="skill-per ">
+                                    <span class="tooltip">90%</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="skill-box">
+                            <span class="title">JavaScript</span>
+                            <div class="skill-bar ">
+                                <span class="skill-per javascript">
+                                    <span class="tooltip">70%</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="skill-box">
+                            <span class="title">JAVA</span>
+                            <div class="skill-bar ">
+                                <span class="skill-per java">
+                                    <span class="tooltip">70%</span>
+                                </span>
+                            </div>
+                        </div>
+
+
+                        <div class="skill-box">
+                            <span class="title">React JS</span>
+                            <div class="skill-bar ">
+                                <span class="skill-per reactjs">
+                                    <span class="tooltip">60%</span>
+                                </span>
+                            </div>
+                        </div>
+
+
+                        <div class="skill-box">
+                            <span class="title">SQL</span>
+                            <div class="skill-bar ">
+                                <span class="skill-per sql">
+                                    <span class="tooltip">90%</span>
+                                </span>
+                            </div>
+                        </div>
+
+
+                        <div class="skill-box">
+                            <span class="title">DSA</span>
+                            <div class="skill-bar ">
+                                <span class="skill-per dsa">
+                                    <span class="tooltip">50%</span>
+                                </span>
+                            </div>
+                        </div>
+
+
+                        <div class="skill-box">
+                            <span class="title">Spring Boot</span>
+                            <div class="skill-bar ">
+                                <span class="skill-per springboot">
+                                    <span class="tooltip">50%</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Add more skills following the same pattern -->
+
+
+                </div>
+            </section>
+            <!---------------------Education----------->
+            <section class="education" id="education">
+                <div class="top-header">
+                    <h1>Education</h1>
+                </div>
+
+                <div class="timeline-items">
+                    <div class="timeline-item">
+                        <div class="timeline-dot">
+                            <img src="degree.png" alt="Education">
+                        </div>
+
+                        <div class="timeline-content">
+                            <h2> <i class='bx bxs-calendar'></i> 2019-2023</h2>
+                            <h3>Bachelor's Degree</h3>
+                            <p>B.Tech in Computer Science and Engineering from Vellore Institute of Technology, Vellore
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot">
+                            <img src="inter.png" alt="Education">
+                        </div>
+
+                        <div class="timeline-content">
+                            <h2><i class='bx bxs-calendar'></i>2017-2019</h2>
+                            <h3>Intermediate</h3>
+                            <p>Pinegrove Junior College</p>
+                        </div>
+
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot">
+                            <img src="school.png" alt="Education">
+                        </div>
+
+                        <div class="timeline-content">
+                            <h2><i class='bx bxs-calendar'></i>2017-2019</h2>
+                            <h3>High School</h3>
+                            <p>GreenWood High School</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+            <!-- -------------- PROJECT BOX ---------------- -->
+
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Projects</h1>
+                </div>
+                <div class="project-container">
+                    <div class="project-box">
+                        <a href="https://github.com/gavaskar056/Health-Tracking-System" target="_blank"
+                            class="project-card">
+                            <img src="project1.jpg" alt="Project 1">
+                            <div class="project-content">
+                                <h3>Health Tracking System and Analysis</h3>
+                                <p>Web Development</p>
+                                <div class="project-tech">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>JavaScript</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="project-box">
+                        <a href="https://github.com/gavaskar056/Novelia-project" target="_blank" class="project-card">
+                            <img src="project2.png" alt="Project 2">
+                            <div class="project-content">
+                                <h3>Novelia 2</h3>
+                                <p>React Application</p>
+                                <div class="project-tech">
+                                    <span>React</span>
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>JavaScript</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="project-box">
+                        <a href="https://github.com/gavaskar056/chatbox-AI.git" target="_blank" class="project-card">
+                            <img src="project3.png" alt="Project 3">
+                            <div class="project-content">
+                                <h3>chatbot-AI</h3>
+                                <p>web development</p>
+                                <div class="project-tech">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>JavaScript</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- -------------- CONTACT BOX ---------------- -->
+
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Get in touch</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-envelope"></i> Email: sunilchunchu056@gmail.com</p>
+                            <p><i class="uil uil-phone"></i> Tel: +91 7815805782</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-control">
+                            <form id="contactForm" onsubmit="sendEmail(event)">
+                                <div class="form-inputs">
+                                    <input type="text" class="input-field" placeholder="Name" id="name" required>
+                                    <input type="email" class="input-field" placeholder="Email" id="email" required>
+                                </div>
+                                <div class="text-area">
+                                    <textarea placeholder="Message" id="message" required></textarea>
+                                </div>
+                                <div class="form-button">
+                                    <button type="submit" class="btn">Send <i class="uil uil-message"></i></button>
+                                </div>
+                                <div class="message-status">
+                                    <div id="successMessage" class="message success">
+                                        <i class="uil uil-check-circle"></i> Message sent successfully!
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+
+        <!-- --------------- FOOTER --------------- -->
+        <footer>
+            <div class="top-footer">
+                <p>Sunil Chunchu</p>
+            </div>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <a href="https://www.instagram.com/your.instagram/" target="_blank" class="icon">
+                    <i class="uil uil-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/your-linkedin/" target="_blank" class="icon">
+                    <i class="uil uil-linkedin-alt"></i>
+                </a>
+                <a href="https://github.com/your-github" target="_blank" class="icon">
+                    <i class="uil uil-github-alt"></i>
+                </a>
+            </div>
+            <div class="bottom-footer">
+                <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Sunil Chunchu</a> - All rights
+                    reserved</p>
+            </div>
+        </footer>
+
+    </div>
+
+
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="main.js"></script>
+</body>
+
+</html>
